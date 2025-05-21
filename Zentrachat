@@ -1,0 +1,161 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ZentraChat - Premium AI Chatbot Agency" />
+  <title>ZentraChat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: #f4f4f4;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: radial-gradient(circle at top, #1f1f1f, #0d0d0d);
+      position: relative;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta-button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: #4f46e5;
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #6366f1;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 4rem 2rem;
+    }
+    .feature-card {
+      background: #1f1f1f;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    .feature-card i {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #4f46e5;
+    }
+    .feature-card p {
+      font-size: 1rem;
+    }
+    .pricing {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .pricing h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .pricing-tiers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .tier {
+      background: #121212;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 280px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .tier h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .tier p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 1rem;
+      font-size: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZentraChat</h1>
+    <p>Premium AI Chatbot Agency — Build smart conversations with style.</p>
+    <button class="cta-button">Get Started</button>
+  </header>  <section class="features">
+    <div class="feature-card">
+      <i class="fas fa-robot"></i>
+      <p>Works 24/7 so you don’t have to</p>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-magic"></i>
+      <p>Custom branded AI flows</p>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-envelope-open-text"></i>
+      <p>Lead gen, support & funnel automation</p>
+    </div>
+  </section>  <section class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-tiers">
+      <div class="tier">
+        <h3>Starter</h3>
+        <p><strong>$500 setup</strong><br>$150/mo<br>1 bot, lead gen/FAQ flow, basic support</p>
+      </div>
+      <div class="tier">
+        <h3>Pro</h3>
+        <p><strong>$1000 setup</strong><br>$300–$500/mo<br>Up to 3 flows, email integration, custom branding</p>
+      </div>
+      <div class="tier">
+        <h3>Premium</h3>
+        <p><strong>$2000 setup</strong><br>$500–$1000/mo<br>5+ flows, full funnel automation, call booking, concierge support</p>
+      </div>
+    </div>
+  </section>  <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>  <footer>
+    &copy; 2025 ZentraChat. All rights reserved.
+  </footer>
+</body>
+</html>
